@@ -8,7 +8,7 @@ var index = fs.readFileSync('index.html');
 var indexContent = index.toString();
 
 app.get('/', function(request, response) {
-  response.send(index);
+  response.send(indexContent);
 });
 
 
